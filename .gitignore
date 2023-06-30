@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/originalImages
+/originalLabels
+/poisonedImages
+/poisonedLabels
+/poisonTestImages
+/runs/detect
+/scp
+/scp-send
