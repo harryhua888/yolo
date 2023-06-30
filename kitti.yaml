@@ -1,0 +1,19 @@
+path: ../datasets/coco12  # dataset root dir
+train: 
+  - images/train2017  # train images (relative to 'path') 128 images
+  - labels/train2017
+val: 
+  - images/test2017  # train images (relative to 'path') 128 images
+  - labels/test2017  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+
+names:
+  0: Car
+  1: Pedestrian
+  2: Van
+  3: Misc
+  4: Truck
+  5: Tram
+  6: Cyclist
+  7: Person_sitting
